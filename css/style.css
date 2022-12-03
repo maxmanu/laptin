@@ -377,3 +377,42 @@ input.form-product {-moz-appearance: textfield; height: 40px; border: none; back
 .slider-sec .align-center > div, .slider-sec .align-center > div > div, .slider-sec .align-center > div > div > div{height: 100%;}
 .side-top-bg{position: relative;}
 .side-top-bg:before{content: ""; background: #3143ef; position: absolute; right: 0; width: 100%; height: 200px; top: 0; border-radius: .25rem}
+.section-asesoria {
+    --opacidad-negro: 0.5;
+    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("../images/bg/laptin-banner-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 0;
+    margin-bottom: 100px;
+}
+.col-asesoria {
+    margin-bottom: -70px;
+}
+.col-servicios {
+    --opacidad-negro: 0.5;
+    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("../images/bg/laptin-banner-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.fixed-header .navbar-brand img {
+    max-height: 70px;
+}
+.btn-simple--dark {
+    font-weight: bold;
+    color: #FD5B03;
+}
+.fullscreen-banner--secondary {
+    --opacidad-negro: 0.5;
+    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("../images/bg/laptin-banner-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-height: 500px;
+    min-height: 100%;
+}
+.logo-footer {
+    max-width: 150px;
+}

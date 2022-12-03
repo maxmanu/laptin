@@ -539,7 +539,7 @@ background: linear-gradient(to bottom, rgba(49,67,239,0) 0%, rgba(49,67,239,0.9)
 .sidebar-links li a .link-icon { transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1); position: absolute; top: 0; bottom: 0; margin: auto; background: #fff; }
 .sidebar-links li a .link-icon.link-arrow { transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1); left: 0.625rem; width: 1.125rem; height: 0.125rem; background: none; }
 .sidebar-links li a .link-icon.link-arrow::before { position: absolute; content: ''; top: -0.25rem; right: 0.0625rem; width: 0.625rem; height: 0.625rem; border-top: 0.125rem solid #081b3a; transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1); border-right: 0.125rem solid #081b3a; transform: rotate(45deg); }
-.sidebar-links li a .link-text { margin: 0; position: relative; z-index: 1; margin-left: 40px; vertical-align: middle; display: inline-block; transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1); padding: 0; color: #081b3a; font-weight: 600; line-height: 1.6; text-align: center; }
+.sidebar-links li a .link-text { margin: 0; position: relative; z-index: 1; margin-left: 40px; vertical-align: middle; display: inline-block; transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1); padding: 0; color: #081b3a; font-weight: 600; line-height: 1.6; }
 .sidebar-links li a:hover{background: none}
 .sidebar-links li.active a, .sidebar-links li a:hover:before { width: 100%; background: #fd5b03;}
 .sidebar-links li.active a .link-icon.link-arrow, .sidebar-links li a:hover .link-icon.link-arrow { background: #fff; transform: translate(1rem, 0); }
